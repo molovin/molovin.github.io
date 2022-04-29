@@ -92,7 +92,7 @@
 
 	<div class="content">
 		<div class="nav-box">
-      <div class="nav1"><a href="./home.html"><img class="nav-icon" src="images/home.png" alt="">主頁</a></div>
+      <div class="nav1"><a href="./index.html"><img class="nav-icon" src="images/home.png" alt="">主頁</a></div>
       <div class="nav1"><a href="./facility.html"><img class="nav-icon" src="images/FC.png" alt="">園内設施</a></div>
       <div class="nav1"><a href="./event.html"><img class="nav-icon" src="images/activites.png" alt="">活動</a></div>
     </div>
@@ -112,7 +112,7 @@
 					<div class="card-body">
 						<h5 class="card-title"><b>B1 玩水樂</b></h5>
 						<p class="card-text">探索水的流動及變化</p>
-						<a href="#" class="btn btn-primary" onclick="setDetail('ni')"
+						<a href="#" class="btn btn-primary" onclick="setDetail('shui')"
 							style="box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">查看詳情</a>
 					</div>
 				</div>
@@ -131,7 +131,7 @@
 					<div class="card-body">
 						<h5 class="card-title"><b>B3 玩泥氹</b></h5>
 						<p class="card-text">體驗泥漿玩樂趣</p>
-						<a href="#" class="btn btn-primary" onclick="setDetail('test')"
+						<a href="#" class="btn btn-primary" onclick="setDetail('ni')"
 							style="box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">查看詳情</a>
 					</div>
 				</div>
@@ -307,23 +307,23 @@
 		switch (type) {
 			case 'shui':
 				detailData = {
-					title: 'B1 玩水區',
+					title: 'B1 玩水樂',
 					images: './images/B1.jpg',
-					detail: '管道 <br> 大自然恩物（如：樹枝、石頭、樹葉...）'
-				}
-				break;
-			case 'ni':
-				detailData = {
-					title: 'B2 玩泥區',
-					images: './images/B1.jpg',
-					detail: '管道 <br> 大自然恩物（如：樹枝、石頭、樹葉...）'
+					detail: '<b>透過不同工具及玩物，探索水的流動及變化</b>  <br><li>不同器皿（如：水壺、量杯。。。）</li></b> <br><li>玩水工具（如：匙羹、針筒、漏斗。。。）</li></b> <br><li>各類浮沉物品（（如：小船、海綿、小氣球、石頭。。。）</li></b> <br><li>水彩、食用顔料、泡泡</li></b>'
 				}
 				break;
 			case 'sha':
 				detailData = {
-					title: 'B3 玩泥區',
-					images: './images/B1.jpg',
-					detail: '管道 <br> 大自然恩物（如：樹枝、石頭、樹葉...）'
+					title: 'B2 玩沙堆',
+					images: './images/B2.jpg',
+					detail: '<b>透過動手動脚玩沙，發掘不同玩沙方法及沙的特性</b>  <br><li不同器皿（如：水樽、水盆）</li></b> <br><li>玩沙工具（如：沙剷、挖沙爪、漏斗。。。）</li></b> <br><li>模具、貝殼、石頭、大積木、管道</li></b> <br><li>剷沙車</li></b> <br><li>燈箱</li></b>'
+				}
+				break;
+			case 'ni':
+				detailData = {
+					title: 'B3 玩泥氹',
+					images: './images/B3.jpg',
+					detail: '<b>藉不同探索物，體驗泥漿樂趣</b>  <br><li>大自然恩物（如：樹枝、石頭、樹葉。。。）</li></b> <br><li>不同器皿（如：水樽、水桶。。。）</li></b> <br><li>主題玩具（如：泥剷、吸泥管。。。）</li></b> <br><li>不同的球</li></b> '
 				}
 				break;
 			case 'test':
